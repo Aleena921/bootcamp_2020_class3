@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+function App(name, age) {
   return (
-    <div>Hellow world from App.js</div>
+    <div>Hellow world from App.js {name} Age = {age - 10}
+      <div>
+        Another tree
+      </div>
+    </div>
   );
 }
 
