@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div><App name='Aleena Irfan' age={23} IsReactDeveloper={true}/></div>
+    <div><App name="Aleena" age={23} isReactDeveloper={true}/></div>
 );
 
 // If you want to start measuring performance in your app, pass a function
